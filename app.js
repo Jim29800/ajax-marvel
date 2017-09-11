@@ -29,9 +29,7 @@ function requete(lettre) {
                 + "<tr><td>"  + tableauA[i+1].name + "</td><td><img src='" + tableauA[i+1].thumbnail.path + "." + tableauA[i+1].thumbnail.extension +"'></td><td>" + tableauA[i+1].description + "</td><td>" + tableauA[i+1].comics.collectionURI + "</td><td>" + tableauA[i+1].stories.collectionURI + "</td><td>" + tableauA[i+1].series.collectionURI + "</td></tr>"
                 + "<tr><td>"  + tableauA[i+2].name + "</td><td><img src='" + tableauA[i+2].thumbnail.path + "." + tableauA[i+2].thumbnail.extension +"'></td><td>" + tableauA[i+2].description + "</td><td>" + tableauA[i+2].comics.collectionURI + "</td><td>" + tableauA[i+2].stories.collectionURI + "</td><td>" + tableauA[i+2].series.collectionURI + "</td></tr>"
                 + "<tr><td>"  + tableauA[i+3].name + "</td><td><img src='" + tableauA[i+3].thumbnail.path + "." + tableauA[i+3].thumbnail.extension +"'></td><td>" + tableauA[i+3].description + "</td><td>" + tableauA[i+3].comics.collectionURI + "</td><td>" + tableauA[i+3].stories.collectionURI + "</td><td>" + tableauA[i+3].series.collectionURI + "</td></tr>"
-                + "<tr><td>"  + tableauA[i].name + "</td><td><img src='" + tableauA[i+4].thumbnail.path + "." + tableauA[i+4].thumbnail.extension +"'></td><td>" + tableauA[i+4].description + "</td><td>" + tableauA[i+4].comics.collectionURI + "</td><td>" + tableauA[i+4].stories.collectionURI + "</td><td>" + tableauA[i+4].series.collectionURI + "</td></tr>"
-            
-            );
+                + "<tr><td>"  + tableauA[i+4].name + "</td><td><img src='" + tableauA[i+4].thumbnail.path + "." + tableauA[i+4].thumbnail.extension +"'></td><td>" + tableauA[i+4].description + "</td><td>" + tableauA[i+4].comics.collectionURI + "</td><td>" + tableauA[i+4].stories.collectionURI + "</td><td>" + tableauA[i+4].series.collectionURI + "</td></tr>");
             }
             $("button").click(function(){
                 var page = $(this).attr("id");
