@@ -19,7 +19,10 @@ function requete2(lettre) {
         new List('test-list', {
             valueNames: ['hero'],
             page: 5,
-            pagination: true
+            pagination: [{
+                outerWindow: 1,
+                innerWindow : 5
+            }]
         });
     }).fail(function(){
         console.log("nope");
